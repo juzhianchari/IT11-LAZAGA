@@ -1,0 +1,4 @@
+1. The settings chosen during the Git installation process help set up useful tools for working with Git repositories, including a graphical user interface (GUI) and an easy way to interact with Git using the terminal.
+2. A programmer would want to use the command line because it offers more precise control over the system, enables faster access to tools and commands, and allows automation and scripting.
+3. When you type `pwd` again, the shell prints out the full path of the directory you're currently in. For example, it might print something like `/c/Users/YourName/`.
+4. The file added automatically to the repository is named `README.md`. It typically contains basic information about the repository, like its purpose or how to use it.
