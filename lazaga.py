@@ -26,15 +26,16 @@ print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
 while game_running:
     move = input("Enter move (w/a/s/d for directions, q to quit): ").lower()
 
-    if move == "w":  # Up
+    if move == "Up":  # Up
         player_y += 1
-    elif move == "s":  # Down
+    elif move == "Down":  # Down
         player_y -= 1
-    elif move == "a":  # Left
+    elif move == "Left":  # Left
         player_x -= 1
-    elif move == "d":  # Right
+    elif move == "Right":  # Right
         player_x += 1
-    elif move == "q":  # Quit the game
+    elif move == "Quit":  # Quit the game
         print("You quit the game.")
         break
+
 
