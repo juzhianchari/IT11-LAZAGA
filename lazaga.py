@@ -38,8 +38,3 @@ while game_running:
         print("You quit the game.")
         break
 
-    print(f"Player position: ({player_x}, {player_y})")
-
-    if player_x == treasure_x and player_y == treasure_y:
-        print("You found the treasure! You win!")
-        break
