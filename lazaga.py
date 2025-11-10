@@ -1,22 +1,15 @@
 # filename.py
 
-# Let's assume your first name starts with 'A' and your last name ends with 'Z'
-# Convert the first letter of your first name to a number and last letter of your last name to a number
-
 def letter_to_number(letter):
     return ord(letter.lower()) - ord('a') + 1
 
 
-# Assign player coordinates based on your first name
-# Replace 'A' with the first letter of your first name
+print("Welcome to Lazaga's Maze!")
+
 player_x = letter_to_number('A')
-# Replace 'A' with the first letter of your first name
 player_y = letter_to_number('A')
 
-# Assign treasure coordinates based on your last name
-# Replace 'Z' with the last letter of your last name
 treasure_x = letter_to_number('Z')
-# Replace 'Z' with the last letter of your last name
 treasure_y = letter_to_number('Z')
 
 game_running = True
@@ -26,34 +19,20 @@ print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
 while game_running:
     move = input("Enter move (w/a/s/d for directions, q to quit): ").lower()
 
-<<<<<<< HEAD
-    if move == "up":  # Up
+    if move == "w":
         player_y += 1
-    elif move == "down":  # Down
+    elif move == "s":
         player_y -= 1
-    elif move == "left":  # Left
+    elif move == "a":
         player_x -= 1
-    elif move == "right":  # Right
-=======
-    if move == "Up":  # Up
-        player_y += 1
-    elif move == "Down":  # Down
-        player_y -= 1
-    elif move == "Left":  # Left
-        player_x -= 1
-    elif move == "Right":  # Right
->>>>>>> 4be46e65c1858ccf948299e4504d4f1e85dbc8f9
+    elif move == "d":
         player_x += 1
-    elif move == "Quit":  # Quit the game
+    elif move == "q":
         print("You quit the game.")
         break
 
-<<<<<<< HEAD
-print(f"Player position: ({player_x}, {player_y})")
+    print(f"Player position: ({player_x}, {player_y})")
 
     if player_x == treasure_x and player_y == treasure_y:
         print("You found the treasure! You win!")
         break
-=======
-
->>>>>>> 4be46e65c1858ccf948299e4504d4f1e85dbc8f9
