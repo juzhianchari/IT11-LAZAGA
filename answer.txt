@@ -2,3 +2,17 @@
 2. A programmer would want to use the command line because it offers more precise control over the system, enables faster access to tools and commands, and allows automation and scripting.
 3. When you type `pwd` again, the shell prints out the full path of the directory you're currently in. For example, it might print something like `/c/Users/YourName/`.
 4. The file added automatically to the repository is named `README.md`. It typically contains basic information about the repository, like its purpose or how to use it.
+
+diff --git a/IT11-LAZAGA b/IT11-LAZAGA
+new file mode 160000
+index 0000000..b03b0f2
+--- /dev/null
++++ b/IT11-LAZAGA
+@@ -0,0 +1 @@
++Subproject commit b03b0f28816f10d1ecb1ad7beea7a196281884cc
+diff --git a/lazaga.py b/lazaga.py
+index ff04afd..92f2dcd 100644
+--- a/lazaga.py
++++ b/lazaga.py
+@@ -1,22 +1,15 @@
+ # filename.py
