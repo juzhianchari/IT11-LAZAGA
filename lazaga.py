@@ -1,5 +1,6 @@
 # filename.py
 
+
 def letter_to_number(letter):
     return ord(letter.lower()) - ord('a') + 1
 
