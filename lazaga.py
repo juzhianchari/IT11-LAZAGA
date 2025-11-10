@@ -6,6 +6,7 @@ def letter_to_number(letter):
 
 
 print("Welcome to Lazaga's Maze!")
+print("Instructions: Use up, left, right, down to move through the maze!")
 
 player_x = letter_to_number('A')
 player_y = letter_to_number('A')
